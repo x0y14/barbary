@@ -1,0 +1,17 @@
+﻿l_english:
+  building_type_great_mosque_of_kairouan_01:0 "Great Mosque of Kairouan"
+  building_type_great_mosque_of_kairouan_01_desc:0 "Great Mosque of Kairouan, or Mosque of Uqba, was built by Uqba ibn Nafi during the Umayyad dynasty. Considered one of the greatest masterpieces in Islamic architecture, the mosque has come close to its present form through restoration and renovation during the Aghrab dynasty."
+  # 01
+  building_great_mosque_of_kairouan_01:0 "$building_type_great_mosque_of_kairouan_01$"
+  building_great_mosque_of_kairouan_01_desc:0 "$building_type_great_mosque_of_kairouan_01_desc$"
+  # 02
+  building_great_mosque_of_kairouan_02:0 "$building_type_great_mosque_of_kairouan_01$"
+  building_great_mosque_of_kairouan_02_desc:0 "$building_type_great_mosque_of_kairouan_01_desc$"
+  # 03
+  building_great_mosque_of_kairouan_03:0 "$building_type_great_mosque_of_kairouan_01$"
+  building_great_mosque_of_kairouan_03_desc:0 "$building_type_great_mosque_of_kairouan_01_desc$"
+
+  # ref: https://en.wikipedia.org/wiki/Great_Mosque_of_Kairouan
+  # ref: https://en.wikipedia.org/wiki/Uqba_ibn_Nafi
+  # ref: https://www.ne.jp/asahi/arc/ind/2_meisaku/15_qairawan/qairawan.htm
+  # ref: https://en.wikipedia.org/wiki/Ziyadat_Allah_I_of_Ifriqiya

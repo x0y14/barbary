@@ -1,0 +1,8 @@
+﻿on_game_start = {
+	events = {
+		# mod installed!
+		barbary_mod.0001
+		# ad mosuqe to kairouan!
+		barbary_mod.0002
+	}
+}

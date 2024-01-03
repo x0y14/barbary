@@ -1,0 +1,147 @@
+﻿great_mosque_of_kairouan_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_muslim.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder = {
+			religion = religion:islam_religion
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			religion = religion:islam_religion
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		piety_level_impact_mult = 0.5
+		monthly_dynasty_prestige_mult = 0.05
+	}
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.25
+		development_growth = 0.3
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+
+	next_building = great_mosque_of_kairouan_02
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+great_mosque_of_kairouan_02 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_muslim.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder = {
+			religion = religion:islam_religion
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			religion = religion:islam_religion
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 0.15 # 02
+		different_faith_opinion = 5 # 02
+		piety_level_impact_mult = 0.5
+		monthly_dynasty_prestige_mult = 0.05
+		learning_per_prestige_level = 1 # 02
+	}
+	county_modifier = {
+		tax_mult = 0.25
+		development_growth_factor = 0.25
+		development_growth = 0.4
+	}
+	
+	ai_value = {
+		base = 100
+	}
+
+	next_building = great_mosque_of_kairouan_03
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}
+
+
+great_mosque_of_kairouan_03 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_cathedral_muslim.dds"
+	
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	can_construct = {
+		scope:holder = {
+			religion = religion:islam_religion
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			religion = religion:islam_religion
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = 1000
+
+	character_modifier = {
+		monthly_piety = 0.3 # 03
+		different_faith_opinion = 5 # 02
+		piety_level_impact_mult = 0.5
+		monthly_dynasty_prestige_mult = 0.05
+		learning_per_prestige_level = 1 # 02
+		learning = 2 # 03
+	}
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.25
+		development_growth = 0.5
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_religious
+}

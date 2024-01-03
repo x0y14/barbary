@@ -1,0 +1,39 @@
+﻿namespace = barbary_mod
+
+# mod installed !!
+barbary_mod.0001 = {
+	hidden = yes
+	scope = none
+	immediate = {
+		set_global_variable = {
+			name = barbary_mod_installed
+			value = yes
+		}
+
+		# For GlobalVar Error
+		if = {
+			limit = {
+				exists = global_var:barbary_mod_installed
+			}
+			# do nothing
+		}
+	}
+}
+
+# add mosque to kairouan!
+barbary_mod.0002 = {
+	hidden = yes
+	scope = none
+	immediate = {
+		if = {
+			limit = {
+				title:c_kairwan.title_province = {
+					has_special_building_slot = no
+				}
+			}
+			title:c_kairwan.title_province = {
+				add_special_building = great_mosque_of_kairouan_01
+			}
+		}
+	}
+}
